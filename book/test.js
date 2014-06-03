@@ -4,6 +4,7 @@ require(["gitbook"], function(gitbook) {
     });
 
     gitbook.events.bind("exercise.submit", function() {
+        alert('hello');
         // do something
     });
 });
