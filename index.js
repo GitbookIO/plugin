@@ -25,7 +25,7 @@ module.exports = {
     },
 
     // Extend ebook resources and html
-    website: {
+    ebook: {
         assets: "./book",
         js: [
             "test.js"
